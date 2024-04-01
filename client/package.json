@@ -1,0 +1,72 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "start": "vite",
+    "start:css": "tailwindcss -o src/tailwind.css --watch",
+    "build:css": "set NODE_ENV=production tailwindcss -o src/tailwind.css -m",
+    "build": "npm run build:css && vite build",
+    "watch": "vite build --watch"
+  },
+  "dependencies": {
+    "@cloudinary/react": "^1.13.0",
+    "@cloudinary/url-gen": "^1.16.1",
+    "@material-tailwind/react": "^2.1.9",
+    "@mercadopago/sdk-react": "^0.0.18",
+    "alpinejs": "^3.13.5",
+    "axios": "^1.6.7",
+    "consola": "^3.2.3",
+    "formik": "^2.4.5",
+    "gapi-script": "^1.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^5.0.1",
+    "react-image-gallery": "^1.3.0",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-medium-image-zoom": "^5.1.10",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.22.0",
+    "react-slick": "^0.30.2",
+    "react-switch": "^7.0.0",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "sass": "^1.70.0",
+    "slick-carousel": "^1.8.1",
+    "uuid": "^9.0.1",
+    "victory": "^36.9.1",
+    "vite-plugin-vercel": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
+    "react-scripts": "^5.0.1",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.0",
+    "vite-plugin-style-import": "^2.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+.form {
+  width: 80%;
+  height: 60%;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 1em;
+
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 1.2em;
+    margin: 1em;
+  }
+
+  .button {
+    width: 10em;
+    margin: 2em;
+    align-self: flex-end;
+  }
+
+  .princ {
+    display: flex;
+    justify-content: space-around;
+    .inputs {
+    }
+  }
+}
+
+.images {
+  .dropZone {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+  }
+
+  img {
+    width: 100px;
+  }
+}

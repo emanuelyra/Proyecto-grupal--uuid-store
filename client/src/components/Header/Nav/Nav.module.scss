@@ -1,0 +1,25 @@
+.nav {
+  height: 95px;
+  background-color: #fe3130;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .logo {
+    width: 95px;
+  }
+
+  .links {
+    justify-self: flex-start;
+  }
+
+  //   .menus {
+  //     span {
+  //       img {
+  //         width: 30px;
+  //         height: 30px;
+  //         margin: 10px;
+  //       }
+  //     }
+  //   }
+}

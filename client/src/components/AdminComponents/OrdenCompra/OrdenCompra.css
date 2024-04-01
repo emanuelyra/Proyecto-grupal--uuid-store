@@ -1,0 +1,15 @@
+
+.contenedor-table {
+    margin: 0 auto; 
+    width: 80%; 
+    background-color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+}

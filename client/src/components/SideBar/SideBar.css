@@ -1,0 +1,20 @@
+.container-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-side span {
+  margin-bottom: 5px; 
+}
+
+.container-side select {
+  margin-bottom: 10px; 
+}
+
+form {
+  display: flex;
+}
+
+.searchInput {
+  width: 10em;
+}

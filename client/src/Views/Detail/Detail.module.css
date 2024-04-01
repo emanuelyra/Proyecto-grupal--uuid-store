@@ -1,0 +1,19 @@
+.image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .lupa {
+    position: absolute;
+    width: 100px; /* Ajusta el tamaño de la lupa según tus necesidades */
+    height: 100px; /* Ajusta el tamaño de la lupa según tus necesidades */
+    border: 2px solid #333; /* Color del borde de la lupa */
+    border-radius: 50%; /* Para que la lupa sea redonda */
+    background-color: rgba(255, 255, 255, 0.5); /* Color de fondo semi-transparente */
+    pointer-events: none; /* Evita que la lupa afecte a la interacción del usuario con la imagen */
+    display: none; /* Oculta la lupa por defecto */
+  }
+  
+  .image-container:hover .lupa {
+    display: block; /* Muestra la lupa cuando el usuario pasa el ratón sobre la imagen */
+  }  

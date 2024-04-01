@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+
+  .confirmada {
+    width: 50%;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .titulo {
+      font-size: 2em;
+      margin: 1em;
+    }
+
+    .compra {
+      .productos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .link {
+      color: #00f;
+    }
+  }
+}

@@ -1,0 +1,53 @@
+.container {
+  width: 80%;
+  height: 60vh;
+  margin: auto;
+
+  .data {
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    border-radius: 2em;
+    background-color: #fff;
+
+    .titulo {
+      font-size: 1.2em;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .datos {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 60%;
+    }
+
+    .productos {
+      width: 40%;
+
+      .listaDeProductos {
+        max-height: 80%;
+        overflow: hidden;
+        overflow-y: auto;
+        margin: 2em;
+
+        display: flex;
+        flex-direction: column;
+
+        .card {
+          display: flex;
+        }
+      }
+    }
+  }
+}
+
+img {
+  width: 5em;
+}

@@ -1,0 +1,122 @@
+ 
+
+  - Client
+    - src
+      - assests
+        - Carrusel
+          - data.js
+      - components
+        - Admin Components
+          - All Users
+            - All Users.jsx
+          - Create Form
+            - CreateForm.jsx
+            - CreateFrom.module.scss
+            - validation.js
+        - Button
+          - Button.jsx
+          - Button.module.css
+        - Card
+          - Card.jsx
+          - Card.module.scss
+        - Cards
+          - Cards.jsx
+          - Cards.jsx
+        - Footer
+          - Footer.jsx
+          - Footer.module.scss
+        - Header
+          - MenuCarro
+            - MenuCarro.jsx
+            - MenuCarro.module.scss
+          - MenuUser
+            - Login Form
+              - LoginForm.jsx
+            - Singn In Form
+              - SingInForm.jsx
+              - SigInForm.module.scss
+              - validate.js
+          - Nav
+            - Nav.jsx
+            - Nav.module.scss
+        - infoUser
+          - InfoUser.css
+          - infoUSer.jsx
+        - Mis Compras
+          - MisCompras.css
+          - MisCompras.jsx
+        - Mis Direcciones
+          - MisDirecciones.css
+          - MisDirecciones.jsx
+        - SideBar
+          - SideBar.css
+          - SideBar.jsx        
+      - Helpers
+        - Auntenticador.jsx
+        path.js
+      - redux
+        - actions-type.js
+        - actions.js
+        - reducer.js
+        - store.js
+      - Views
+        - Admin
+          - Admin.jsx
+          - Admin.module.scss
+        - Confirmacion de compra
+          - Confirmacion
+            - Confirmacion.jsx
+          - Direccion De envio
+            - DireccionDeEnvio.jsx
+            - validate.js
+          - Metodo de envio
+            - metodoDeEnvio.jsx
+          - User Data
+            - UserData.jsx
+            - validate.js
+          - ConfirmacionDeCompra.jsx
+        - Detail
+        - Home page
+        - Productos
+        - User
+      - App.jsx
+        - App.module.scss
+      - main
+      - styles
+
+    
+  - Server
+    - src
+      - controllers
+        - Carrito
+          - delete Carrito
+          - post Carrito
+          - short circuit?
+            - No ssabems si se usa
+        - Pasarela de pagos
+          - MakePayment.js
+        - Productos
+          - delete Productos
+          - get Productos
+          - post Productos
+          - put Productos
+        - Users
+          - delete User
+          - get User
+          - LogIn
+          - put User
+          - signUp
+      - models
+        - carrito.js
+        - producto.js
+        - usuario.js
+      - routes
+        - indexroutes.js
+      - db.js
+      - server.js
+
+    - env
+    - dbRegistrerDEMO.js
+    - index.js
+    - produDEMO.js
+    - usuarioDEMO.js

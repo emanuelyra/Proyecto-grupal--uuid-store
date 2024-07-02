@@ -6,7 +6,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 
 // Componentes
 import Nav from "./components/Header/Nav/Nav";
-
+//
 // Views
 import Admin from "./Views/Admin/Admin";
 import User from "./Views/User/DataUser";
